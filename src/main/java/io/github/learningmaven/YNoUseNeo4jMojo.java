@@ -12,6 +12,10 @@ import java.util.List;
 
 import static org.apache.maven.plugins.annotations.LifecyclePhase.COMPILE;
 
+/**
+ * This plugin makes sure a Neo4j dependency is included in the dependency tree.
+ * How would a project succeed otherwise?
+ */
 @Mojo(name = "ensure-neo4j", defaultPhase = COMPILE)
 public class YNoUseNeo4jMojo extends AbstractMojo {
 

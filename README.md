@@ -24,3 +24,12 @@ Then, proceed to the project of your choice and run:
 ```shell
 mvn io.github.learningmaven:simple-plugin-example:1.0-SNAPSHOT:ensure-neo4j
 ```
+
+## Browse plugin site
+
+First run:
+```shell
+mvn site
+```
+
+Then open `target/site/index.html`.
