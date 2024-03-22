@@ -21,7 +21,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
-        <itf.version>0.11.0</itf.version>
+        <itf.version>0.13.1</itf.version>
         <maven-plugin-plugin.version>3.6.4</maven-plugin-plugin.version>
     </properties>
 
